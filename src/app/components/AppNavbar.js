@@ -55,7 +55,6 @@ class AppNavbar extends Component {
 
   render() {
     return <Navbar color="dark" dark expand="md">
-      <NavbarBrand tag={Link} to="/home">Loizenai.com</NavbarBrand>
       <Nav className="mr-auto">
         <NavLink href="/home">Home</NavLink>
         {this.state.showUser && <NavLink href="/user">User</NavLink>}
